@@ -49,10 +49,16 @@ We used comments for month 0f 2018-08 if you have more powerful computeryou can 
 3. `$ cd ../`
 4. `$ python train.py` Begin training
 
-
+Run chatbot
+-------------
+ To run server cd to project root and run `$ python chatbot.py`
+ 
+ To query chatbot send post request  to http://localhost:5000/query with a JSON containing query `{"query":"Hello"}` you will get a response as a JSON containing answer `{"answer":"Hello !"}`
 
 Screenshots 
 ----------------------------------
+
 ![Minimized](/extras/1.PNG?raw=true "Minimized")
+
 ![Maximized](/extras/2.PNG?raw=true "Maximized")
 
