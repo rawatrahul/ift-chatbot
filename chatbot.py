@@ -17,7 +17,6 @@ def query():
         loaded_json = json.loads(request.data)
         q = loaded_json['query']
         a = inference(q)
-        # loaded_json = json.loads(a['answers'])
         t = a['answers']
         i = a['best_index']
         print(t[i])
