@@ -6,7 +6,9 @@ Table of Contents
 1. [Introduction](#introduction)
 2. [Setup](#setup)
 3. [Dataset preparations](#dataset-preparations)
-4. [Screenshots](#screenshots)
+4. [Train chatbot](#train-chatbot)
+5. [Run chatbot](#run-chatbot)
+6. [Screenshots](#screenshots)
 
 Introduction
 -------------
